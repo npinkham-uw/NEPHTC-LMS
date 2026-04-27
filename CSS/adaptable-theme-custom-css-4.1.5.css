@@ -1,0 +1,998 @@
+/****************************** Front Page Styling(Site Landing Page) ************************************/
+/*top overlay menu close button*/
+ .overlaymenu .overlayclosebtn {
+   background-color: #ffffff !important;
+}
+
+/* style of header, top navbar, and blocks */
+.search-box {
+margin-bottom: 10px;
+}
+/*aside blocks*/
+.block .header {
+  border-radius: 4px;
+  background-color: #f5f5f5; 
+  border: none;
+}
+
+.block .header .title h2 {
+  color: #1C4178;
+ font-size:14px;
+font-weight:bold!important;
+}
+.showblockicons .block_settings h2:before {
+    content: none;
+}
+/*top header menu icon color*/
+
+/* search field*/
+.searchbox{
+padding: 0px;
+}
+.search-box {
+  border: 1px solid #ccc;
+
+}
+
+/*slider arrows*/
+.flex-direction-nav .flex-prev, .flex-direction-nav .flex-next {
+background:none;
+}
+
+/*slider text and slider styling*/
+/*to show slider img on small screens*/
+
+#main-slider .flex-caption {
+    background-color: rgba(0, 0, 0, 0.0);
+   left: 0;
+   width:40%;
+}
+.flex-caption h3 {
+  border-bottom-style: solid;
+    text-transform: none !important;
+    font-size: 3.25em !important;
+}
+#adaptable-page-header-wrapper{
+padding-top:10px;
+}
+a.home-search-button {
+margin-left:0.5em;
+margin-bottom: 2em;
+display:inline-block;
+color:white;
+background-color:#67A857;
+text-shadow: 1px 1px 1px rgba(26,26,26,0.6);
+padding: 10px 15px;
+font-size: 1.2em
+}
+
+a.home-search-button:hover{
+color:black !important;
+}
+
+.banner-second{
+height:350px;
+border:1px solid black;
+width:30%;
+display:block;
+float:right;
+background-image:url("/pix/tag_search.png");
+background-size: contain;
+    background-repeat: no-repeat;
+  background-position: 0px 10px;
+position:relative;
+}
+
+/* make front page slider h2 spacing more consistent */
+.banner-second h2 {
+line-height: 1.4;
+}
+
+.mailButton{
+    margin-left: .5em;
+    margin-bottom: 2em;
+    display: inline-block;
+background-color:#6ea853; 
+    text-shadow: 1px 1px 1px rgba(26,26,26,.6);
+    padding: 10px 15px;
+color:white!important;
+font-size:1.2em;
+}
+.mailButton:hover{
+color: black!important;
+}
+.adjustDiv{
+position:relative;
+top: 60%;
+padding:25px 5px 0px 20px;
+}
+
+.flex-viewport {
+  background: #000;
+    background: -webkit-linear-gradient(left,rgba(26,26,26,0.7),rgba(26,26,26,0.6),rgba(26,26,26,0.4),rgba(26,26,26,0.1),rgba(26,26,26,0));
+    background: -o-linear-gradient(right,rgba(26,26,26,0.7),rgba(26,26,26,0.6),rgba(26,26,26,0.4),rgba(26,26,26,0.1),rgba(26,26,26,0));
+    background: -moz-linear-gradient(right,rgba(26,26,26,0.7),rgba(26,26,26,0.6),rgba(26,26,26,0.4),rgba(26,26,26,0.1),rgba(26,26,26,0));
+    background: linear-gradient(to right,rgba(26,26,26,0.7),rgba(26,26,26,0.6),rgba(26,26,26,0.4),rgba(26,26,26,0.1),rgba(26,26,26,0));
+}
+#main-slider {
+ height: 350px;
+ width: 100%;
+ // width: 70%;
+ // background:url("/pix/light house banner.jpg") !important;
+ background-size: cover;
+background-position:center; 
+}
+.flex-caption {
+padding: 0 0 0 25px! important;
+}
+.slidewrap {
+  
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+.flexslider .slides img {
+    height: 350px;
+float: right;
+//    visibility: hidden;
+background-size: cover;
+}
+
+/*marketing blocks*/
+#marketblocks .internalmarket
+ { 
+  border:none;
+padding:0px;
+}
+sitetopic{
+display:none;
+}
+/*********************** End of Front Page Styling ******************************************************/
+/* all over website */
+a:hover{
+text-decoration:underline;
+}
+
+/* all over website */
+
+/*************** Course categories Marketing block Styling ************************/
+
+.category_block {
+    display: block;  /* Remove bullet points; allow greater control of positioning */
+    padding: 0;      /* Override defaults for lists */
+    margin: 0;       /* Override defaults for lists */
+    width: 100%;     /* Get the row full width */
+}
+
+.category_block  li {
+    display: inline-block; /* Get all images to show in a row */
+    width: 18%;            /* Show 4 logos per row */
+    text-align: center;    /* Centre align the images */
+}
+
+@media (max-width: 960px) and (min-width: 501px) {
+    .category_block  li { width: 50%; } /* Show 2 logos per row on medium devices (tablets, phones in landscape) */
+}
+@media (max-width: 979px){
+#search-1 {
+width:auto;
+}
+}
+@media (max-width: 500px) {
+    .category_block  li { width: 100%; } /* On small screens, show one logo per row */
+}
+
+/*************** Course categories Marketing block Styling ************************/
+
+
+/**** tag search styling *****/
+.path-tag .tagarea .controls .gotopage.prevpage, 
+.path-tag .tagarea .controls .gotopage.nextpage  {
+     background-color: #194179;
+      padding: 10px;
+       color: white;
+       font-weight: bold;
+}
+.badge-info{
+background-color: lightgrey;
+}
+.tag-management-box{
+display:none;
+}
+#tag-search-box{
+display:none;
+}
+.flagasinappropriate{
+display:none;
+}
+.edittag{
+display:none;
+}
+.taggeditems .asynch-enroll-key {
+    display: none;
+}
+.tag_cloud .s4, .s0, .s5, .s1, .s2, .s6, .s20, .s9, .s3, .s7,.s8, .s13{
+font-size: 25px !important;
+font-weight:bolder;
+}
+.tag_cloud .inline-list li {
+    padding: 0.4em 0.2em !important;
+   display:block;
+}
+.tag_cloud {
+display:flex;
+}
+.tag_cloud .inline-list li:nth-of-type(1){
+    background-color: #1c4178;
+    color: white;
+    font-weight: bold;
+    margin: 30px 10px 10px 10px;
+}
+ul.inline-list:nth-of-type(1), ul.inline-list:nth-of-type(4){
+flex:1;
+
+}
+ul.inline-list:nth-of-type(4) li:nth-of-type(2) a{
+color:#FF0000; 
+}
+
+ul.inline-list:nth-of-type(4) li:nth-of-type(3) a{
+color:#017937; 
+}
+ul.inline-list:nth-of-type(4) li:nth-of-type(4) a{
+color:#1c4178; 
+}
+ul.inline-list:nth-of-type(4) li:nth-of-type(5) a{
+font-size: 25px!important;
+    font-weight: bolder;
+background-image: linear-gradient(to left, blue, red);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+}
+ul.inline-list:nth-of-type(4) li:nth-of-type(6) a{
+font-size: 25px!important;
+    font-weight: bolder;
+  background-image: linear-gradient(to right, #1A2E59, #EDA621);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;      
+}
+ul.inline-list:nth-of-type(1) li a{
+color: #7030A0; 
+}
+ul.inline-list:nth-of-type(2) li a{
+color: #0070C0;  
+}
+ul.inline-list:nth-of-type(3) li a{
+color: #00B050; 
+}
+ul.inline-list:nth-of-type(2), ul.inline-list:nth-of-type(3){
+flex:2;
+}
+.navbar .singlebutton{
+margin: 0 40px;
+}
+@media (max-width: 500px) {
+ .tag_cloud .inline-list  {
+    margin-top: 20px;
+}
+.tag_cloud {
+display:block;
+}
+}
+
+/**** tag search styling *****/
+
+/********* Guest login button ***********/
+#guestlogin{
+display:none;
+}
+/********* Guest login button ***********/
+.btn-link{
+color: white!important;
+}
+
+
+/***************** SME Collapsable div styling ***************************/
+.collapsible1 {
+  text-decoration:underline;
+  color: black;
+    cursor: pointer;footyer
+
+  border:none;
+  text-align: left;
+  outline:none;
+  font-size: 15px;
+
+  transition: all 0.25s ease-out;
+}
+.toggle1{
+  display:none;
+}
+
+.active1, .collapsible1:hover {
+  color:red;
+}
+
+.content1 {
+  padding: 10px 18px;
+  display: none;
+  width:45%;
+  overflow: hidden;
+  font-size:15px;
+  
+  background-color: #f1f1f1;
+}
+.collapsible1::before {
+  content: ' ';
+  display: inline-block;
+
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid currentColor;
+  vertical-align: middle;
+  margin-right: .7rem;
+  transform: translateY(-2px);
+
+  transition: transform .2s ease-out;
+}
+.toggle1:checked + .collapsible1::before {
+  transform: rotate(90deg) translateX(-3px);
+}
+
+/***************** SME Collapsable div styling ***************************/
+
+
+
+/******************************* Footer Styling ***********************************************/
+
+#page-footer{
+padding-top:20px;
+
+}
+.links-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-link-row {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+.socialbox{
+display: table;
+margin: 0 auto;
+padding:1.8%;
+}
+/* To hide cache info and border*/
+#page-footer .info {
+display :none;
+}
+
+/*********************************** End of footer Styling *********************************************/
+
+
+/****************** Lesson and Quiz Pages Styling or Course inner pages Styling(course section/activity inner pages) ***********/
+/* activity name styling*/
+.course-content .current{
+position: inherit;
+}
+
+#page .course-content ul li.section.main.current {
+    background: none
+}
+
+.form-check-inline{
+line-height: 4;
+}
+.instancename{
+color:#194179;
+font-size: 1.1em;
+    padding-left: 8px;
+    font-weight: 800;
+}
+.instancename:hover{
+color:#67A857;
+text-decoration:underline;
+font-weight:900;
+}
+/*activity footer styling*/
+.activity_footer .text:hover{
+color: #67A857;
+}
+.activity_footer .text{
+color:#194179;
+font-weight:bold;
+}
+/*group choice description hide*/
+
+a.choicegroup-descriptiondisplay {
+display:none !important;
+}
+
+.form-control-static{
+    background-color:#F5F5F5;
+    padding:5px;
+}
+.nav-tabs .nav-item{
+margin-bottom: 3px;
+padding: 0 10px; 
+}
+.btn {
+  background-color: #1C4178;
+}
+.btn-secondary {
+color:#fff!important;
+}
+.btn:hover, .btn-secondary :hover{
+  background-color: #67A857;
+  color:#ffffff;
+}
+/*Course evaluation activity btn styling*/
+
+.nav-link{
+display: inline;
+}
+.nav-tabs .nav-link.active{
+background-color:#67A857;
+color:#fff;
+}
+
+/*End of Course evaluation btn styling*/
+
+a.submit {
+  background: #1C4178;
+}
+
+.path-mod-quiz #mod_quiz_navblock .qnbutton:hover{
+ color:#ffffff;
+}
+/************ Lesson and Quiz Pages Styling or Course inner pages Styling ***************/
+
+
+/*************************  Course Description Page Styling(90% code enrol.php) ********************************/
+
+/* Enroll Page Styling*/
+.enroll-anchor {
+  display: inline-block;
+  background-color: #4b843d;
+  color: white!important;
+  font-size: 1.2em;
+  text-decoration: none;
+  padding: 0.5em 0em;
+  width: 95%;
+  margin: 0.5em 0;
+  max-width: 100px;
+  text-align: center;
+font-weight:bold;
+}
+
+.course-desc-container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+.enroll-anchor:link {
+  display: inline-block;
+  background-color: #3e3e3e;
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
+  padding: 0.5em 0em;
+  width: 95%;
+  margin: 0.5em 0;
+  max-width: 100px;
+  text-align: center;
+}
+
+.enroll-anchor:visited {
+  background-color: #3e3e3e;
+  color: white;
+  text-decoration: none;
+}
+
+.enroll-anchor:hover, .enroll-anchor:focus {
+  background-color: #2d2d2d;
+  color: white;
+  text-decoration: none;
+}
+
+.liz-img-hack-child {
+  width: 38%;
+  padding: 0.3em;
+  margin: 0 0.5em;
+  position: relative;
+}
+
+.learn-more {
+  font-family: Opens sans, Arial, Helvetica, sans-serif;
+  position: relative;
+  display: inline-block;
+  margin: 0 0.5em;
+  max-width: 100%;
+  color: #fff;
+  overflow: hidden;
+}
+
+.learn-more > img {
+  vertical-align: top;
+  width: 100%;
+}
+
+.learn-more figcaption {
+  background-color: rgba(0,0,0,0.5);
+  padding: 0.5em;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #ffffff;
+}
+
+.learn-more figcaption p {
+  font-size: 1em;
+  text-align: center;
+  color: #ffffff;
+  margin: 0.3em 0;
+}
+
+.learn-more figcaption h4 {
+  font-size: 1.2em;
+  text-align: center;
+  color: #ffffff;
+  margin: 1em 0;
+}
+
+.learn-more .empty-a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.learn-more, .learn-more:before, .learn-more:after,
+.learn-more *, .learn-more *:before, .learn-more *:after   {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  transition-delay: 0.5s;
+}
+
+.learn-more figcaption {
+  opacity: 0;
+}
+
+.learn-more:hover figcaption {
+  opacity: 1;
+}
+
+.learn-more > img, .learn-more:hover figcaption {
+  -webkit-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+}
+
+.liz-enroll-child {
+  width: 52%;
+  padding: 0.3em;
+  margin: 0 0.5em;
+}
+
+.liz-enroll-child h2 {
+  margin-top: 0;
+  line-height: 36px;
+  color: inherit;
+}
+
+#page-course-index input.desc-page, #page-enrol-index input.desc-page,
+#page-course-index .nephtc-enroll, #page-enrol-index .nephtc-enroll {
+  display: none;
+}
+
+#page-enrol-index a.desc-page {
+  pointer-events: none;
+}
+
+/* course specs box on course description page */
+#course-aside {
+  float: right;
+  width: 95%;
+  max-width: 400px;
+  padding: 0;
+  margin: 0.5em 0.5em 0.5em 1em;
+  border: 1px solid #d5d5d5;
+}
+#course-specs {
+  list-style-type: none;
+  padding: 0.5em;
+  margin: 0;
+  background-color: #fff;
+}
+
+#course-prereqs {
+  padding: 0.5em;
+}
+
+#specs-liz {
+  background-color: #d5d5d5;
+  color: #000;
+  font-size: 1.1em;
+  font-weight: 600;
+  padding: 0 0.5em;
+  margin: 0;
+}
+#course-specs li {
+  border-bottom: 1px dashed #d5d5d5;
+  padding: 0.5em 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+#course-specs li:last-child{
+border-bottom: none;
+}
+.specs-label {
+  width: 30%;
+  font-weight: 600;
+  padding-right: 0.75em;
+}
+
+.specs-desc {
+  width: 65%;
+padding-left: 5%;
+}
+
+/***** subject matter expert elements on course description page *****/
+.SMEs img {
+  border-radius: 60%;
+  margin-bottom: 0.5em;
+}
+
+.SMEs li {
+  display: inline-block;
+  list-style-type: none;
+  width: 95%;
+  max-width: 200px;
+  margin: 1em 0 0.5em;
+}
+
+.SMEs pre {
+  font-family: Arial, Helvetica, sans-serif;
+  white-space: pre;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+width:100%;
+}
+.courseimage {
+  display: none;
+}
+
+/***************** End of Enroll page Styling ***************/
+
+/* To remove course enrollment options and course name info*/
+
+.coursebox > .info > .coursename {
+  display: none;
+}
+
+.coursebox.collapsed>.info>.coursename {
+  display: inherit;
+}
+
+.coursebox .content .summary {
+  float: none;
+  width: 95%;
+  clear: none;
+}
+
+.courses .coursebox.even, .courses .coursebox.odd {
+  background-color: #fff;
+}
+
+.coursebox .content .summary {
+ float: none;
+ width: 95%;
+ clear: none;
+}
+
+.courses.category-browse .asynch-enroll-key, #page-course-search .asynch-enroll-key {
+  display: none;
+}
+
+
+#page-course-index-category div.enrolmenticons, 
+#page-enrol-index  div.enrolmenticons, #page-enrol-index #maincontent + h2 {
+  display: none;
+} 
+
+#page-course-index-category .nephtc-enroll {
+  background-color: #575c36;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 auto;
+  width: 95%;
+  max-width: 150px;
+  text-align: center;
+  padding: 0.5em;
+  font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+  border: 2px solid #000;
+  border-radius: 5px;
+  font-size: 1.1em;
+}
+
+#page-course-index-category .nephtc-enroll:visited {
+  background-color: #575c36;
+  color: #fff;
+  text-decoration: none;
+}
+
+#page-course-index-category .nephtc-enroll:hover {
+  opacity: 0.85;
+  color: #fff;
+  text-decoration: none;
+}
+/* course category page button*/
+#page-course-index-category .singlebutton{
+  margin-top:5px;
+}
+
+/***************************  End of course Description Page Styling(enrol.php) ********************************/
+
+/********************************* Main Course contents Index Page styling (index.php) *****************************/
+
+/* Each section heading and bottom border*/
+h3.sectionname {
+  background-color: transparent;
+  color: #1C4178 !important;
+  padding: 2px;
+  margin: 0 0.75em;
+  font-weight: 600 !important;
+  border-bottom: 1px solid #d5d5d5;
+}
+/*training main heading*/
+#section-0.section.main.clearfix h3.sectionname {
+  font-size: 2em;
+  color: #000;
+  border: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+/* each activity background color on course page*/
+li.activity.assign, li.activity.feedback, li.activity.resource,
+li.activity.quiz, li.activity.glossary, li.activity.book, li.activity.url,
+li.activity.page, li.activity.certificate, li.activity.forum, li.activity.lesson {
+  background-color: #efefef;
+  margin: 0.5em 0;
+  padding: 0.5em 0;
+}
+/*Activity summary adjustment*/
+.course-content ul.topics li.section .content,
+.course-content ul.weeks li.section .content {
+  margin: 0;
+}
+.course-content ul.topics li.section .summary,
+.course-content ul.weeks li.section .summary {
+  margin: 15px 1.25em;
+}
+/*blue tag or condition info of activity*/
+.tag-info{
+  margin-left:15px;
+}
+.section .activity .availabilityinfo, .section .activity .contentafterlink {
+  margin: 0;
+  padding-left: 5px;
+}
+/*course editing drop down color*/
+.dropdown-item a:hover{
+    color:#6EA853!important;
+}
+
+/* course upload window menu adjustment*/
+.fp-repo{
+padding: 15px 10px;
+}
+.section .activity .contentafterlink p {
+    margin:0.5em 1em;
+}
+
+.path-course-view .section .summary {
+  padding: 0;
+  margin: 15px;
+}
+
+.course-content ul.topics li.section .left, .course-content ul.topics li.section .right {
+  width: 0px;
+}
+
+.course-content ul.section {
+  margin: 0;
+}
+.course-content ul li.section.main {
+  border: 1px solid #d5d5d5;
+  margin: 0 0 20px 0;
+  padding-top: 12px;
+}
+.format-flexsections .course-content ul.flexsections li.section {
+  padding-right:0;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.format-flexsections .course-content ul.flexsections-level-1>li.section.main {
+  margin: 1.5em 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#certificate-liz[type=checkbox]:checked + #page .course-content ul li#section-3.section.main {
+  display: none;
+}
+
+#page .course-content ul li#section-0.section.main {
+  border: none;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+
+#page .course-content ul li#section-0.section.main {
+  border: none;
+  margin-bottom: 0;
+}
+.course-content ul.topics li.section .left, .course-content ul.topics li.section .right {
+  width: 0px;
+}
+
+#section-0.section.main.clearfix .summary {
+  margin: 0;
+  padding: 1em 0 0;
+}
+
+.mod-indent-2 {
+  width: 0;
+}
+
+/**************************** End of Main Course contents Index Page styling *******************************************/
+
+
+
+/******************************************* Media Querries Styling ***************************************/
+/*nav styling for small screens*/
+@media(min-width:992px){
+d-lg-block{
+display:flex!important;
+}
+#main-slider .flex-caption {
+width:100%;
+}
+}
+@media(min-width:0px){
+d-lg-block{
+display:flex!important;
+}
+.d-none{
+display:flex!important;
+}
+.nav-link .d-none{
+display: inline !important;
+}
+}
+@media (max-width: 767.98px){
+.nav-tabs .nav-link{
+   background: #1c4178;
+    color: white;
+    display: block;
+}
+}
+@media(max-width: 979px){
+#adaptable-page-header-wrapper #main-navbar {
+padding: 5px 0;
+}
+
+.has-page-header.page-header-margin.header-style1 #page {
+    margin-top: 230px;
+}
+}
+
+@media (max-width:823px){
+.card{
+margin-top: 35px;
+}
+#adaptable-page-header-wrapper .fa-search{
+width: 0px;
+}
+#adaptable-page-header-wrapper #main-navbar {
+display: none!important;
+}
+.navbar-toggler-icon {
+display: none!important;
+}
+
+h1{
+margin: 0px 10px 10px;
+}
+#page-footer{
+display:block;
+}
+.footer-link-row {
+    font-size: 15px;
+    margin-bottom: 10px;
+    min-width: 0%;
+}
+
+}
+@media (max-width: 480px){
+.flex-caption{
+position:absolute!important;
+background-color:transparent!important;
+}
+.banner-second{
+width:100%;
+}
+#main-slider{
+width:100%;
+}
+.d-none{
+flex-direction:column;
+}
+}
+@media (max-width: 1200px) {
+  .liz-img-hack-child {
+    width: 95%;
+    max-width: 300px;
+  }
+  
+  .liz-enroll-child {
+    width: 95%;
+  }
+
+   #course-aside {
+    float: none;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.25em;
+  }
+.course-aside {
+    float: none;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.25em;
+  }
+  .course-desc-container {
+    margin-bottom: 0;
+    display: block;
+  }
+}
+/*overlay side bar z index*/
+@media (max-width: 767px){
+#block-region-side-post.sidebarshown{
+z-index:15!important;
+}
+#block-region-side-post{
+z-index:15;
+}
+}
+@media (min-width: 1600px) {
+.adjustDiv {
+    top: 55%;
+   }
+}
